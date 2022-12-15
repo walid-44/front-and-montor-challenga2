@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:  hsl(225, 100%, 94%); 
+  max-width: 1440px;
+  height: 100vh;
+  font-family: RedHat Display;
+
+  
+}
+.contener{
+  
+
+  
+}
+.contener .image{
+  
+}
+.contener .image .wal{
+display: none;
+}
+.contener .image .yos{
+
+  
+
+}
+.contener .conent{
+  width: 450px;
+  height: 650px;
+  background-color: hsl(225, 100%, 98%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+.contener .conent .kam{
+  border-radius: 20px 20px 0 0;
+
+}
+.contener .conent .text{
+  text-align: center;
+  margin-top: 50px;
+}
+.contener .conent .text h2{
+  font-size: 40px;
+  font-weight: 800;
+
+}
+.contener .conent .text p:not(.cancel){
+  width: 300px;
+  margin: auto;
+  color: #777;
+  line-height: 2;
+  font-size: 16px;
+}
+.contener .conent .text .serv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(244, 229, 245,0.3);
+  width: 350px;
+  height: 80px;
+  margin: auto;
+  border-radius: 10px;
+
+  
+}
+.contener .conent .text .serv a{
+  margin-left: 130px;
+}
+.contener .conent .text .serv a:hover{
+  
+  color: rgb(146, 114, 176);
+
+}
+.contener .conent .text .serv .annual span{
+  display: grid;
+  gap: 5px;
+}
+.contener .conent .text .serv .annual span:last-child{
+  color: #777;
+}
+button{
+  border: none;
+  width: 350px;
+  color: white;
+  margin-top: 30px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 15px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:hsl(274, 87%, 31%);
+  cursor:move;
+
+}
+.text .cancel{
+  margin-top: 30px;
+  color: #777;
+}
+.text .cancel:hover{
+  font-weight: bold;
+  color: black;
+}
